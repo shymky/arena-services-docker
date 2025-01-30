@@ -12,6 +12,7 @@ secret.env
 *bak
 mongo-backup/
 *tmp
+*.env
 
 # https://raw.githubusercontent.com/github/gitignore/main/Global/macOS.gitignore
 # General
