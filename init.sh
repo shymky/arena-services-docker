@@ -185,6 +185,7 @@ done
 echocolor ${HIGHLIGHT} "### Setting up folders and dependencies ..."
 
 # some systems might not support older docker-compose ?
+# [[ $(docker-compose --help) ]] && DOCKER_COMPOSE="docker-compose" || DOCKER_COMPOSE="docker compose"
 [[ $(docker-compose --help) ]] && DOCKER_COMPOSE="docker-compose" || DOCKER_COMPOSE="docker compose"
 
 # check dependencies
